@@ -1,6 +1,9 @@
 #!/bin/sh
 
 function ssh {
-  
+  service ssh status
+    if disabled
+      set: enabled
+  #should be enabled
 
 }
