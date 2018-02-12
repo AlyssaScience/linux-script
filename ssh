@@ -1,9 +1,4 @@
 #!/bin/sh
+#ssh script
 
-function ssh {
-  service ssh status
-    if disabled
-      set: enabled
-  #should be enabled
-
-}
+service ssh status 
